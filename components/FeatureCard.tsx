@@ -29,13 +29,12 @@ const FeatureCard: React.FC<Props> = ({ title, description, icon, image }) => {
         </div>
 
         <div className="mt-auto rounded-[2rem] overflow-hidden border border-white/5 relative aspect-video shadow-2xl">
-          <img 
-            src={image} 
-            alt={title} 
-            className="w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-[2s] group-hover:scale-105"
+          <img
+            src={image}
+            alt={title}
+            className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-all duration-[2s] group-hover:scale-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-90" />
-          <div className="absolute inset-0 bg-blue-500/5 group-hover:bg-transparent transition-colors duration-700" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-60" />
         </div>
       </div>
     </div>

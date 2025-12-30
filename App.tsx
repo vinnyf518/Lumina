@@ -44,23 +44,14 @@ const App: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-2xl bg-white/5 p-2.5 border border-white/10 rounded-full backdrop-blur-2xl shadow-[0_25px_60px_rgba(0,0,0,0.6)] transition-all hover:border-white/20 group">
-            <input 
-              type="email" 
-              placeholder="Your professional email" 
+            <input
+              type="email"
+              placeholder="Your professional email"
               className="w-full sm:flex-1 px-8 py-3 bg-transparent text-white placeholder-neutral-500 focus:outline-none transition-all"
             />
             <InteractiveButton variant="primary" className="w-full sm:w-auto shadow-[0_0_35px_rgba(59,130,246,0.3)] hover:scale-105">
               Start Project <span className="ml-2">→</span>
             </InteractiveButton>
-          </div>
-          
-          <div className="mt-12 flex items-center gap-8 opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-700">
-             <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-neutral-500">Industry Standards</div>
-             <div className="flex gap-10 items-center">
-                <span className="font-extrabold text-xl tracking-tighter">FORBES</span>
-                <span className="font-bold text-xl">stripe</span>
-                <span className="font-bold text-xl tracking-tighter">Vercel</span>
-             </div>
           </div>
         </div>
 

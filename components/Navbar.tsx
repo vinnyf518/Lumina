@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { NAV_ITEMS } from '../constants';
 import InteractiveButton from './InteractiveButton';
 
 const Navbar: React.FC = () => {
@@ -12,18 +11,6 @@ const Navbar: React.FC = () => {
             <div className="w-4 h-4 border-2 border-black rotate-45 group-hover:scale-125 transition-transform duration-500" />
           </div>
           <span className="font-bold text-lg tracking-tight">LUMINA</span>
-        </div>
-
-        <div className="hidden md:flex items-center gap-8">
-          {NAV_ITEMS.map((item) => (
-            <a 
-              key={item.label} 
-              href={item.href} 
-              className="text-sm font-medium text-neutral-400 hover:text-white transition-colors"
-            >
-              {item.label}
-            </a>
-          ))}
         </div>
 
         <div>
