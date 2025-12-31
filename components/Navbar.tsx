@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
           <div className="w-8 h-8 bg-white rounded flex items-center justify-center overflow-hidden">
             <div className="w-4 h-4 border-2 border-black rotate-45 group-hover:scale-125 transition-transform duration-500" />
           </div>
-          <span className="font-bold text-lg tracking-tight">joe cubi</span>
+          <span className="font-bold text-lg tracking-tight">LUMINA</span>
         </div>
 
         <div>
